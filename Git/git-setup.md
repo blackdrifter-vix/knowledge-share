@@ -6,6 +6,7 @@ Setup git on your mac
 SSH to generate as per machine.
 
 `ssh-keygen -t rsa -b 4096 -C “test@gmail.com”`
+
 `pbcopy < ~/.ssh/id_rsa.pub`
 
 pbcopy will copy SSH key to your clipboard.
