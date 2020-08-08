@@ -38,7 +38,7 @@ Create Objects:
 
 to instantiate an object, first is to use **new** operator with a constructor
 
-_var object = new Object();_
+	var object = new Object();
 
 this do not store object in variable like primitive. It holds a pointer to the location in memory where the object exists
 
@@ -48,9 +48,9 @@ this do not store object in variable like primitive. It holds a pointer to the l
 
 It’s best to _dereference_ objects that you no longer need so that the garbage collector can free up that memory.
 
-var object1 = new Object();  
-// do something  
-object1 = null; // dereference
+	var object1 = new Object();  
+	// do something  
+	object1 = null; // dereference
 
   
 
